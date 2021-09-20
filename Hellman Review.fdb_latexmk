@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex Hellman Review"] 1632149546 "Hellman Review.aux" "Hellman Review.bbl" "Hellman Review" 1632149546
-  "./asl.bst" 1568079155 65961 f7f7113bb8a684abde6b3cd12619e496 ""
-  "Hellman Review.aux" 1632149519 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
+["bibtex Hellman Review"] 1632153327 "Hellman Review.aux" "Hellman Review.bbl" "Hellman Review" 1632153329
+  "./asl.bst" 1632153293 65961 f7f7113bb8a684abde6b3cd12619e496 ""
+  "Hellman Review.aux" 1632153329 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
   "Hellman Review.bcf" 0 -1 0 ""
   "masterbib.bib" 0 -1 0 ""
   (generated)
   "Hellman Review.blg"
   "Hellman Review.bbl"
-["pdflatex"] 1632149519 "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.tex" "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.pdf" "Hellman Review" 1632149546
-  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.aux" 1632149519 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
-  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.tex" 1632149515 25141 f0b6da77c667413d58943e6f86d7fcfb ""
+["pdflatex"] 1632153327 "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.tex" "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.pdf" "Hellman Review" 1632153329
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.aux" 1632153329 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.tex" 1632153326 25166 48741a3c9ab77b6e2020b7644e8a47f2 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -148,13 +148,15 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "Hellman Review.aux" 1632149519 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
+  "Hellman Review.aux" 1632153329 409 3ccdfc3ca3aa691a76008fdf369c5379 ""
   "Hellman Review.bbl" 0 -1 0 "bibtex Hellman Review"
-  "Hellman Review.tex" 1632149515 25141 f0b6da77c667413d58943e6f86d7fcfb ""
-  "asl.cls" 1568079136 220594 d13a2c37b21b5e05a2889d99e84891d3 ""
+  "Hellman Review.tex" 1632153326 25166 48741a3c9ab77b6e2020b7644e8a47f2 ""
+  "asl.cls" 1632153293 220594 d13a2c37b21b5e05a2889d99e84891d3 ""
   (generated)
   "Hellman Review.aux"
-  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.log"
-  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.pdf"
   "Hellman Review.log"
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.pdf"
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.log"
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman Review/Hellman Review.log"
+  "/Users/christopherjamesscambler/Dropbox/Philosophy Work/Hellman-MAIL-review/Hellman Review.pdf"
   "Hellman Review.pdf"
