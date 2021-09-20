@@ -1,0 +1,9 @@
+- three parts, dealing with topics on which Hellman has had a huge influence. 
+
+-The first is largely directed at modal structuralism and related issues (structuralism in general, other brands of nominalism). 
+
+-the second deals with Hellman's work (with Feferman) on predicative mathematics. develops the view in rigorous formal detail, explores its philosophical limits, follows strands of criticism in extremely interesting directions, and ultimately finds the value in the work. the culmination is a new paper with extremely interesting speculations on questions surrounding the justification for large cardinal axioms.
+
+- the third part deals with issues more at the borders of philosophical logic and philosophy of mathematics. SIA, intuitionism, truth by convention, a new paper on if-thenism.
+
+- exploration of formal ideas. A real desire to find the value in programs, but also to respect their limits. Comes out in nominalism, predicativity, if thenism. the "healthy pluralism"
