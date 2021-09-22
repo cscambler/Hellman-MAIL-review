@@ -245,14 +245,85 @@ will depend on the brand of potentialism (and the sense of possibility) at issue
 
 But this simple thought is not Hellman's. 
 According to Hellman, 
-there are principles of statable in the language of his modal stage theory 
-that are at once more possible than the potentialist's axiom of infinity 
+there are principles statable in the language of his modal stage theory 
+-- essentially, that of modal, plural logic with 
+vocabulary for stages and sets --
+that are at once significantly more self-evident
+than the potentialist's axiom of infinity 
 and that nevertheless imply it as a consequence. 
 It is this claim I am somewhat doubtful of.
 
+Hellman considers one axiom of this kind 
+that he ultimately rejects on grounds of its being `too close' 
+to the sought conclusion to really gain any ground. This is the assertion:
+\begin{description}
+\item[A] It is possible that there are some stages $ss$ 
+such that the empty set is formed at one of them, 
+and every stage in the $ss$ is succeeded by another stage in the $ss$.\footnote{
+    Following Hellman, I will use double letters $xx$ to range over pluralities, 
+    and will tend to use $s$, $ss$ when the intended range is stages.
+    }
+\end{description}
+In the context of the rest of the stage theory, 
+and in particular the axiom that every stage contains all possible sets 
+from among things at the previous stage,
+this readily implies there is a least stage with infinitely many stages before it, 
+and with it many infinite sets. But, according to Hellman, this axiom is 
+\begin{quote} ``Too close for comfort to the conclusion sought. 
+    Once you have an infinity of compossible things... 
+    not surprisingly you generate a set of those things at the next stage.''\end{quote}
+What then is Hellman's alternative? To introduce it, 
+we need the following definition. 
+Say that a property $P(ss)$ that applies to stages $ss$ is
+ \emph{Indefinitely Extendible} (IE) 
+iff each of
 
+\begin{description} 
+    \item[B]    $P(ss)$ is possible,
+    \item[C]    given any possible stages $ss$ with $P(ss)$, 
+                it is possible to find a $t$ after all $ss$ with $P(ss + t)$
+\end{description}
+are true. In the latter of course $ss + t$ is just 
+the $ss$ together with $t$ (which will be supplied by 
+our plural comprehension axioms). The \emph{rough} idea is that $P$ is 
+an IE property when it is always possible to find further 
+stages to which it applies: so no matter how far you go on 
+in the process of set formation, you will always eventually 
+find new series of stages that satisfy $P$.
 
+Now, let $N$ be the predicate
+\begin{quote} Every stage in the $ss$ is one at which a natural number is formed
+\end{quote} 
+Then the axiom Hellman proposes is simply that `$N$ is not IE'. 
+Let us see what this amounts to. Substituting $N$ for $P$ in $IE$ 
+and negating we get the negation of one of {\bf B} or {\bf C} with $N = P$. 
+The resulting negation of {\bf B} is demonstrably false 
+given the rest of Hellman's stage theory, 
+so we are left with (up to trivial grammatical reshuffling)
 
+\begin{description}
+    \item[D] possibly, there are stages $ss$ 
+    where every one of $ss$ witnesses the formation of a new natural number, 
+    and such that no later stage witnesses the formation of a natural number.
+\end{description}
+
+Using the fact that the rest of Hellman's theory implies 
+it is possible for there to be a stage $s_n$ at which 
+each particular natural number $n$ is formed, 
+one can easily go on to show that there must possibly be a stage 
+at which the set of all natural numbers is formed (and much more besides). 
+But this is the potentialist version of the axiom of infinity we set out to secure.
+
+I have two issues with this argument. 
+The first is that it is not obvious to me 
+that there is much daylight between Hellman's proposed axiom 
+and axiom {\bf A}. The second is that the machinery of stage theory 
+and the Boolosian iterative conception seems superfluous, 
+and indeed unnecessarily complicating. The indefinite extensibility property,
+and formulation of axioms in terms of it, is well known in the literature 
+and provides a much cleaner formulation of the same ideas, in my opinion at least.
+
+%%%%% Old work Below
 \section{Scraps}
 I want to raise some issues surrounding 
 the fourth paper of this part, 
@@ -318,27 +389,75 @@ intrinsically plausible than the simple assertion
 that infinite sets / stages in the process of set 
 formation are possible.
 
-Hellman considers one axiom of this kind that he ultimately rejects on grounds of its being `too close' to the sought conclusion in this regard. This is the assertion:
+Hellman considers one axiom of this kind 
+that he ultimately rejects on grounds of its being `too close' 
+to the sought conclusion to really gain any ground. This is the assertion:
 \begin{description}
-\item[A] It is possible that there are some stages $ss$ such that the empty set is formed at one of them, and every stage in the $ss$ is succeeded by another stage in the $ss$. 
+\item[A] It is possible that there are some stages $ss$ 
+such that the empty set is formed at one of them, 
+and every stage in the $ss$ is succeeded by another stage in the $ss$.\footnote{
+    Following Hellman, I will use double letters $xx$ to range over pluralities, 
+    and will tend to use $s$, $ss$ when the intended range is stages.
+    }
 \end{description}
-In the context of the rest of the stage theory, this immediately implies there is a stage with infinitely many stages before it, and hence an infinite set. But, according to Hellman, this axiom is 
-\begin{quote} ``Too close for comfort to the conclusion sought. Once you have an infinity of compossible things... not surprisingly you generate a set of those things at the next stage.''\end{quote}
-What then is Hellman's alternative? To introduce it, we need the following definition. Say that a property $P(ss)$ that applies to stages $ss$ is \emph{Indefinitely Extendible} (IE) iff each of
-\begin{description} \item[B] $P(ss)$ is possible,
-\item[C] given any possible stages $ss$ with $P(ss)$, it is possible to find a $t$ after all $ss$ with $P(ss + t)$
+In the context of the rest of the stage theory, 
+and in particular the axiom that every stage contains all possible sets 
+from among things at the previous stage,
+this readily implies there is a least stage with infinitely many stages before it, 
+and with it many infinite sets. But, according to Hellman, this axiom is 
+\begin{quote} ``Too close for comfort to the conclusion sought. 
+    Once you have an infinity of compossible things... 
+    not surprisingly you generate a set of those things at the next stage.''\end{quote}
+What then is Hellman's alternative? To introduce it, 
+we need the following definition. 
+Say that a property $P(ss)$ that applies to stages $ss$ is
+ \emph{Indefinitely Extendible} (IE) 
+iff each of
+
+\begin{description} 
+    \item[B]    $P(ss)$ is possible,
+    \item[C]    given any possible stages $ss$ with $P(ss)$, 
+                it is possible to find a $t$ after all $ss$ with $P(ss + t)$
 \end{description}
-are true. In the latter of course $ss + t$ is just the $ss$ together with $t$ (which will be supplied by our plural comprehension axioms). The rough idea is that $P$ is an IE property when it applies to \emph{unboundedly many}  possible series of stages: so no matter how far you go on in the process of set formation, you will always eventually meet find new series of stages that satisfy $P$.
+are true. In the latter of course $ss + t$ is just 
+the $ss$ together with $t$ (which will be supplied by 
+our plural comprehension axioms). The \emph{rough} idea is that $P$ is 
+an IE property when it is always possible to find further 
+stages to which it applies: so no matter how far you go on 
+in the process of set formation, you will always eventually 
+find new series of stages that satisfy $P$.
 
 Now, let $N$ be the predicate
 \begin{quote} Every stage in the $ss$ is one at which a natural number is formed
 \end{quote} 
-Then the axiom Hellman proposes is simply that `$N$ is not IE'. Let us see what this amounts to. Substituting $N$ for $P$ in $IE$ and negating we get the negation of one of {\bf B} or {\bf C} with $N = P$. The resulting negation of {\bf B} is demonstrably false given the rest of Hellman's stage theory, so we are left with (up to trivial grammatical reshuffling)
-\begin{description}\item[D] possibly, there are stages $ss$ where every one of $ss$ witnesses the formation of a new natural number, and such that no later stage witnesses the formation of a natural number.
-\end{description}
-Using the fact that the rest of Hellman's theory implies it is possible for there to be a stage $s_n$ at which each particular natural number $n$ is formed, one can easily go on to show that there must possibly be a stage at which the set of all natural numbers is formed (and much more besides). But this is the potentialist version of the axiom of infinity we set out to secure, that it is possible there is an infinite set.
+Then the axiom Hellman proposes is simply that `$N$ is not IE'. 
+Let us see what this amounts to. Substituting $N$ for $P$ in $IE$ 
+and negating we get the negation of one of {\bf B} or {\bf C} with $N = P$. 
+The resulting negation of {\bf B} is demonstrably false 
+given the rest of Hellman's stage theory, 
+so we are left with (up to trivial grammatical reshuffling)
 
-I have three issues with this argument. The first is that it is not obvious to me that there is much daylight between Hellman's proposed axiom and axiom {\bf A}. The second is that the machinery of stage theory and the Boolosian iterative conception seems superfluous, and indeed unnecessarily complicating. The third is that, given the difference in target in Hellman's derivation from the standard axiom of infinity, it is in a certain sense trivial that his conclusion is correct, \emph{viz.} that there are arguments available for infinity to the height potentialist not available to the actualist.
+\begin{description}
+    \item[D] possibly, there are stages $ss$ 
+    where every one of $ss$ witnesses the formation of a new natural number, 
+    and such that no later stage witnesses the formation of a natural number.
+\end{description}
+
+Using the fact that the rest of Hellman's theory implies 
+it is possible for there to be a stage $s_n$ at which 
+each particular natural number $n$ is formed, 
+one can easily go on to show that there must possibly be a stage 
+at which the set of all natural numbers is formed (and much more besides). 
+But this is the potentialist version of the axiom of infinity we set out to secure.
+
+I have two issues with this argument. 
+The first is that it is not obvious to me 
+that there is much daylight between Hellman's proposed axiom 
+and axiom {\bf A}. The second is that the machinery of stage theory 
+and the Boolosian iterative conception seems superfluous, 
+and indeed unnecessarily complicating. The indefinite extensibility property,
+and formulation of axioms in terms of it, is well known in the literature 
+and provides a much cleaner formulation of the same ideas, in my opinion at least.
 
 On the issue of daylight between {\bf A} and Hellman's proposal: Let's review the dialectic. Hellman's stage theory is committed to \begin{description} \item[E] For each natural number $n$, it is possible to find a stage $s_n$ at which the finite Von Neumann ordinal $n$ is formed.\end{description} 
 The question is whether in addition it is possible to form all such stages `at once'. {\bf A} says `yes' quite straightforwardly: it asserts that it is possible to run through all the finite stages of the set construction process. In the context of {\bf E} on the other hand, {\bf D} is a way of saying `yes' bentbackwardly, by saying that eventually the stages that witness formation of natural numbers \emph{stop coming}, even though the stages continue. But (given that by {\bf E} such stages do come for each $n$) this really seems a trivial restatement of the claim that eventually you get all of them.  In fact they seem roughly akin to the pair `someone is wearing a hat' and `not everyone is not wearing a hat': you can either say eventually you get all of the stages at which natural numbers are formed, or that eventually you won't get any more stages at which natural numbers are formed, but in either case you are saying essentially the same thing.
@@ -346,6 +465,10 @@ The question is whether in addition it is possible to form all such stages `at o
 As to the second point it is a little unclear why talk of stages should be relevant to such arguments for the justification of infinity, and in fact there are simpler though intimately related proposals known in the literature. For example, a simpler definition of an IE predicate says that the predicate $P$ is IE if necessarily, given any plurality $pp$ of $P$-ers, it is possible to find a $p$ not among the $pp$ with $P(p)$. Then the axiom that says the predicate `is a natural number' or `is a hereditarily finite set' is not indefinitely extendible seems to have all the plausibility of Hellman's proposal but without need to refer to stages. In fact, this (more or less) is the statement of the axiom of infinity in Linnebo's potentialist system.
 
 With regard the third point, we already noted that Hellman's target is not what is usually associated with the axiom of infinity: standardly, this would be understood as something implying the \emph{existence} of an infinite set. None, however, of Hellman's potentialist stage theories implies anything about simple existence; they only require it to be \emph{possible} for there to be an infinite set (or stage). When he speaks of `deriving the axiom of infinity', it is this weaker sense -- deriving the \emph{possibility} of an infinite set -- that he has in mind. As a result there is clear sense in which the potentialist -- regardless of whether or not they talk directly in terms of stages -- will have route to justifying what they call the axiom of infinity not open to the height actualist: they only need to argue for the \emph{possibility}, in whatever sense is at issue, of the actualist's axiom. If logical possibility is at issue, for example, they only need argue for something along the lines of \emph{consistency} of the actualist's axiom to secure its \emph{truth}. And clearly, in general, the potentialist's claim be weaker and so easier to justify. But this is just a trivial consequence of the fact that they mean different things by the axiom of infinity.
+
+Remember: note the potential that the argument for replacement does more,
+because it simplifies Linnebo's axiom. This is not evident, 
+cos of weirdness in defining `function'.
 
 The second part consists in papers, some of which are joint with Solomon Feferman, that explore the nature and value of predicative foundations for mathematics. The first paper, which is joint with Feferman, presents technical underpinnings for a predicativist theory based in a modest and elegant theory of finite sets. The second, also joint with Feferman, considers some philosophical challenges raised to the account of the first paper, and also presents some further technical developments contributed by Peter Aczel. The third paper begins a philosophical analysis of the predicativist stance, and the fourth, newly written for the volume, continues that analysis, and in addition fleshes out an idea aired briefly in the third paper, namely the application of Bayesian epistemology in philosophy of mathematics as a means for justifying belief in the existence of large cardinals. The part as a whole is remarkable in showcasing the collaborative and interdisciplinary research involving mathematicians and philosophers that makes philosophy of mathematics such an exciting field.
 
@@ -381,12 +504,8 @@ The third part consists in papers on philosophical logic, generally united by th
 
 Really good book. To quote Hellman on Burgess and Rosen, philosophy at its best!
 
-
-
-
+%bibliography
 \bibliography{masterbib}
 \bibliographystyle{asl}
-
-
-
+%
 \end{document}
