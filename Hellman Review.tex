@@ -1,13 +1,13 @@
 \documentclass{asl}
-
+%
 \title{Review: Geoffrey Hellman, \emph{Mathematics and its Logics}}
-
+%
 \author{Chris Scambler}
 \revauthor{C. Scambler}
 \address{All Souls College\\
 University of Oxford}
 \email{cscambler@gmail.com}
-
+%
 \usepackage{tikz}
 \usepackage{bussproofs}
 % These will be typeset in italics
@@ -22,14 +22,13 @@ University of Oxford}
 \newtheorem{Fact}[Theorem]{Fact}
 \newtheorem{Conjecture}[Theorem]{Conjecture}
 \newtheorem{Remark}[Theorem]{Remark}
-
-
+%
 \begin{document} 
 \maketitle
 %\begin{abstract} \end{abstract}
 
 \section{Introduction}
-%paragraph 1: introduction and compliments.
+
 \emph{Mathematics and its logics} is a collection of Geoffrey Hellman's papers. 
 The volume covers a huge variety of topics:
 there are essays on the foundational role of category theory, 
@@ -42,7 +41,6 @@ and in addition they tend to contain excellent introductions to the relevant deb
 As a result, 
 the book would make a valuable addition to the library of any graduate student or professional with a specialization in philosophy of mathematics. 
 
-%paragraph 2: explain structure of review
 The book is split into three parts reflecting different aspects of Hellman's work. 
 Each part consists of a series of papers with a common theme.
 Most of the papers are very well known, have been highly influential, 
@@ -56,7 +54,7 @@ after summarizing the papers offered in each part,
 in this review I will go on to discuss the contrubtions made by the two new non-critical papers.
 
 \section{Overview}
-%paragraph 3: overview part I
+
 Part I consists in papers related to Hellman's modal structuralism and surrounding issues.
 The first paper of part I, \emph{Structuralism without Structures}, 
 is one of the founding works in the theory of modal structuralism;
@@ -395,12 +393,114 @@ enough to constitute `important mathematical problems'; but since G\"odel's time
 many further results have been found, including the Paris Harrington theorem 
 along with a whole litany of results of Harvey Friedman, that seem more 
 legitimately mathematical statements at the level of the integers, and yet
-that can only be resolved by appeal to quite strong assumptions, e.g. the existence of
-many Mahlo cardinals.
+that can (in a sense!) \emph{only} be resolved by appeal to fairly strong assumptions, 
+e.g. the existence of $n$-Mahlo cardinals for each natural $n$.
 
+Now I parenthetically remarked `in a sense' above, for the reason that
+this is typically only so when it comes to consistency strength. 
+In a case the receives extensive discussion in CITE, for example, it is shown 
+that a certain proposition in Boolean relation theory can be proven assuming 
+the existence of an $n$-Mahlo cardinal for each $n$, and that this hypothesis 
+is necessary in the sense that the natural large cardinal hypotheses of 
+weaker strength-- saliently, for example, the scheme in $n$ to the effect 
+that there exists an $n$ Mahlo cardinal for each $n$ -- cannot prove the theorem, 
+on grounds that the theorem implies the $1$-consistency of such hypotheses. But 
+of course this \emph{does not} mean the large cardinal hypothesis really is necessary.
+In fact it is sufficient to assume that the large cardinal hypothesis in question 
+only has true arithmetic consequences (essentially, that it is $1$-consistent). 
+In his work, Solomon Feferman repeatedly appealed to such observations 
+as a way of defusing attempts at justifying belief in uncountable infinities;
+in the present context, one might see them as a way of defusing the kind of 
+intra-mathematical indispensability argument under consideration.
 
+The last two papers of part II, and especially the last one, contains the germ
+of an idea for how to overcome this kind of problem by appeal to Bayesian 
+confirmation theory.
 
+The central suggestion is that the famous `Bayes rule'
 
+\begin{equation}
+P(H|E) = \frac{P(E|H)\cdot P(H)}{P(E)}
+\end{equation}
+
+may somehow be invoked to give a `boost' to the subjective probability 
+of large cardinal hypotheses, even if of course that boost will fall 
+short of the security provided by a deductive proof. 
+This idea has roots, according to Hellman, in a famous remark of G\"odel's, 
+in which G\"odel proposes that large cardinal axioms and other axioms 
+extending ZFC may be justified in terms of their `success' and 
+`verifiable consequences'.
+
+Hellman's idea is to appeal to results like those of Friedman 
+to `increase the posterior rational credence' of the hypothesis that large 
+cardinals exist, \emph{via}  Bayes rule. According to Hellman, 
+in the role of evidence (the $E$ in Bayes' rule) we may take syntactic 
+claims like (say) the schema asserting the existence of an $n$ Mahlo cardinal 
+for each $n$ is 1-consistent; this, says Hellman, is a proposition to which 
+we have `epistemic access', `arising in a variety of contexts' in such a way that
+plausibly we can hope to `conrim... it through its own fruitfulness in other applications'.
+(This is in contrast e.g. to Friedman's proposition from Boolean relation theory,
+which Hellman does not think has these properties.) Hellman adds that besides this
+consistency claim, in the case at hand, we may throw in additionally `consistency 
+properties of other cardinals whose existence is derivable from the Mahlos', 
+including inaccessibles, hyper-inaccessibles and so on -- 
+to further enrich the evidence. In the role of the hypothesis $(H)$ of course
+we will just have the existence of an $n$-Mahlo cardinals for each $n$. 
+
+Hellman never actually runs through how the application of Bayes rule in 
+such cases is supposed to go, but I think it is illuminating to do so 
+-- and reveals why application of the rule in mathematical cases in particular 
+is perhaps more problematic than traditional empirical applications. 
+In this case, it is clear that $P(E|H)$ is 1, so this drops out. 
+We are left with the claim that one's degree of belief in the claim that 
+the $n$-Mahlo cardinals exist, given they are 1-consistent, should be at least 
+the result of dividing one's degree of belief that they exist by 
+one's degree of belief that the corrsponding scheme is 1-consistent. (Technically
+one could add to the $E$ side the other consistency properties mentioned by Hellman,
+but these would be redundant for the obvious reason that they are all implied by 
+the consistency property already mentioned, and so conjoining them
+will not alter the probability of $E$.)
+
+At this point we run into a bit of a problem. If one's degree of belief 
+in the 1-consistency of the relevant scheme is high -- which for most people 
+of course, it is -- then updating on this will make little difference to the 
+posterior on their existence. Few people then will have their credences in 
+Mahlos altered by this line of reasoning. Certainly, a skeptic like Feferman already
+willing to concede consistency, but doubtful only of existence, will be little moved.
+
+Now to \emph{some} extent this might be chalked up simply to the problem of 
+`old evidence', familiar from discussions of Bayseianism. This is the 
+problem that for Bayesian update to have \emph{any} effect, there must be a 
+change in view on the $E$. Consider for example $E =$ `the die comes up 6', 
+$H =$ `the die is loaded', against some background information $B$. Suppose 
+the die has been rolled; you are basically certain its a six. Then applying 
+Bayes rule will yield the wrong results; really you want $P(E) = 1/6$, 
+not close to $1$. In this case, and with other similar straightforward cases, 
+it is obvious what to say: just imagine yourself in a situation before you were 
+certain in $E$, before you got the relevant evidence, and reason from there. 
+But in the mathematical case, the same move looks a little less plausible. It 
+is not as though we can all remember a time before we thought Mahlo cardinals 
+were consistent; most people probably have taken it as read since they were 
+introduced to them. It is even fairly unclear what might motivate an upward shift 
+in one's credence in the consistency of Mahlos (although sharply downward is 
+easy enough to conceive).
+
+One natural idea suggested briefly by Hellman is that evidence comes from 
+familiarity with the systems; ones confidence in the consistency of a system 
+is gradually increased as one uses it, becomes familiar with it, all the while 
+not finding any contradictions. Perhaps this is so, but in the case he discusses 
+(Mahlo cardinals) it seems highly implausible that these kinds of enquires have 
+significantly raised peoples confidence. Similarly inaccessibles.
+
+Perhaps, however, there are some such cases. 
+Measurables were fairly widely held to be inconsistent but gradual 
+familiarity seems to have persuaded people otherwise. Similarly with the 
+hierarchy of choiceless cardinals. Initially suspected to be consistent, 
+but pursuit revealed rich structure theory. Increasingly people think they 
+are consistent. But this consistency \emph{is} surprising. So perhaps people 
+are more willing to take the case for these cardinals -- and hence the case 
+for the ultimate falsity of AC -- more seriously. In this case, Hellman's 
+Bayseian model does seem to apply in a potentially interesting way.
 
 %%%%% Old work Below
 \section{Scraps}
@@ -590,25 +690,96 @@ In the background here is an interesting dialectic regarding justification for e
 
 All these results, however, suffer from the same problem when viewed as arguments for the indispensability of large cardinals: namely, the \emph{existence} of the large cardinals in question is in general sufficient but unnecessary; for their mere \emph{conservativeness over the arithmetic fragment of the language}, the schema $Prov_T(A) \rightarrow A$ for arithmetic $A$, will on the one hand allow for the desired results, but on the other itself remains a statement about provability at the level of the natural numbers, not something committed to large cardinals.
 
-A suggestion in the 3rd and 4th papers of the part is that Bayesian confirmation theory will be relevant. This is an interesting suggestion and one that is well worth further exploration. At the same time, in my view, much further exploration is needed, since there remain significant questions about the utility of the Bayesian approach here that are not answered in the paper.
+A suggestion in the 3rd and 4th papers of the part is that Bayesian confirmation 
+theory will be relevant. This is an interesting suggestion and one that is
+ well worth further exploration. At the same time, in my view, 
+ much further exploration is needed, since there remain significant 
+ questions about the utility of the Bayesian approach here that are 
+ not answered in the paper.
 
-The central suggestion is that confirmation theory and especially the famous `Bayes rule'
+The central suggestion is that confirmation theory and especially the 
+famous `Bayes rule'
 \begin{equation}
 P(H|E) = \frac{P(E|H)\cdot P(H)}{P(E)}
 \end{equation}
-may somehow be invoked to give a `boost' to the subjective probability of large cardinal hypotheses, even if of course that boost will fall short of the security provided by a deductive proof. This idea has roots, according to Hellman, in a famous remark of G\"odel's, in which G\"odel proposes that large cardinal axioms and other axioms extending ZFC may be justified in terms of their `success' and `verifiable consequences'.
+may somehow be invoked to give a `boost' to the subjective probability 
+of large cardinal hypotheses, even if of course that boost will fall 
+short of the security provided by a deductive proof. 
+This idea has roots, according to Hellman, in a famous remark of G\"odel's, 
+in which G\"odel proposes that large cardinal axioms and other axioms 
+extending ZFC may be justified in terms of their `success' and 
+`verifiable consequences'.
 
-Hellman's idea is to appeal to results like those of Friedman to `increase the posterior rational credence' of the hypothesis that large cardinals exist, \emph{via}  Bayes rule. According to Hellman, in the role of evidence (the $E$ in Bayes' rule) we may take syntactic claims like that (say) Mahlo cardinals are 1-consistent, and in the role of the hypothesis  $(H)$ we can plug in the existence of Mahlo cardinals themselves. [[Actually it is a bit unclear what he is getting at here. How is the Friedman stuff involved?]]
+Hellman's idea is to appeal to results like those of Friedman 
+to `increase the posterior rational credence' of the hypothesis that large 
+cardinals exist, \emph{via}  Bayes rule. According to Hellman, 
+in the role of evidence (the $E$ in Bayes' rule) we may take syntactic 
+claims like (say) the schema asserting the existence of an $n$ Mahlo cardinal 
+for each $n$ is 1-consistent; this, says Hellman, is a proposition to which 
+we have `epistemic access', `arising in a variety of contexts' in such a way that
+plausibly we can hope to `conrim... it through its own fruitfulness in other applications'.
+(This is in contrast e.g. to Friedman's proposition from Boolean relation theory,
+which Hellman does not think has these properties.) Hellman adds that besides this
+consistency claim, in the case at hand, we may throw in additionally `consistency 
+properties of other cardinals whose existence is derivable from the Mahlos', 
+including inaccessibles, hyper-inaccessibles and so on -- 
+to further enrich the evidence. In the role of the hypothesis $(H)$ of course
+we will just have the existence of an $n$-Mahlo cardinals for each $n$. 
 
-Hellman never actually runs through how the application of Bayes rule in such cases is supposed to go, but I think it is illuminating to do so -- and reveals why application of the rule in mathematical cases in particular is perhaps more problematic than traditional empirical applications. In this case, it is clear that $P(E|H)$ is 1, so this drops out. We are left with the claim that one's degree of belief in the claim that Mahlo cardinals exist given they are 1-consistent should be at least the result of dividing one's degree of belief that they exist by one's degree of belief that they are 1-consistent.\footnote{There is also the issue of more varied evidence, but...}
+Hellman never actually runs through how the application of Bayes rule in 
+such cases is supposed to go, but I think it is illuminating to do so 
+-- and reveals why application of the rule in mathematical cases in particular 
+is perhaps more problematic than traditional empirical applications. 
+In this case, it is clear that $P(E|H)$ is 1, so this drops out. 
+We are left with the claim that one's degree of belief in the claim that 
+the $n$-Mahlo cardinals exist, given they are 1-consistent, should be at least 
+the result of dividing one's degree of belief that they exist by 
+one's degree of belief that the corrsponding scheme is 1-consistent. (Technically
+one could add to the $E$ side the other consistency properties mentioned by Hellman,
+but these would be redundant for the obvious reason that they are all implied by 
+the consistency property already mentioned, and so conjoining them
+will not alter the probability of $E$.)
 
-At this point we run into a bit of a problem. If one's degree of belief in the 1-consistency of Mahlos is high -- which for most people of course, it is -- then updating on this will make little difference to the posterior on their existence. Few people then will have their credences in Mahlos altered.
+At this point we run into a bit of a problem. If one's degree of belief 
+in the 1-consistency of the relevant scheme is high -- which for most people 
+of course, it is -- then updating on this will make little difference to the 
+posterior on their existence. Few people then will have their credences in 
+Mahlos altered by this line of reasoning. Certainly, a skeptic like Feferman already
+willing to concede consistency, but doubtful only of existence, will be little moved.
 
-Now to \emph{some} extent this might be chalked up simply to the problem of `old evidence', familiar from discussions of Bayseianism. This is the problem that for Bayesian update to have \emph{any} effect, there must be a change in view on the $E$. Consider for example $E =$ `the die comes up 6', $H =$ `the die is loaded', against some background information $B$. Suppose the die has been rolled; you are basically certain its a six. Then applying Bayes rule will yield the wrong results; really you want $P(E) = 1/6$, not close to $1$. In this case, and with other similar straightforward cases, it is obvious what to say: just imagine yourself in a situation before you were certain in $E$, before you got the relevant evidence, and reason from there. But in the mathematical case, the same move looks a little less plausible. It is not as though we can all remember a time before we thought Mahlo cardinals were consistent; most people probably have taken it as read since they were introduced to them. It is even fairly unclear what might motivate an upward shift in one's credence in the consistency of Mahlos (although sharply downward is easy enough to conceive).
+Now to \emph{some} extent this might be chalked up simply to the problem of 
+`old evidence', familiar from discussions of Bayseianism. This is the 
+problem that for Bayesian update to have \emph{any} effect, there must be a 
+change in view on the $E$. Consider for example $E =$ `the die comes up 6', 
+$H =$ `the die is loaded', against some background information $B$. Suppose 
+the die has been rolled; you are basically certain its a six. Then applying 
+Bayes rule will yield the wrong results; really you want $P(E) = 1/6$, 
+not close to $1$. In this case, and with other similar straightforward cases, 
+it is obvious what to say: just imagine yourself in a situation before you were 
+certain in $E$, before you got the relevant evidence, and reason from there. 
+But in the mathematical case, the same move looks a little less plausible. It 
+is not as though we can all remember a time before we thought Mahlo cardinals 
+were consistent; most people probably have taken it as read since they were 
+introduced to them. It is even fairly unclear what might motivate an upward shift 
+in one's credence in the consistency of Mahlos (although sharply downward is 
+easy enough to conceive).
 
-One natural idea suggested briefly by Hellman is that evidence comes from familiarity with the systems; ones confidence in the consistency of a system is gradually increased as one uses it, becomes familiar with it, all the while not finding any contradictions. Perhaps this is so, but in the case he discusses (Mahlo cardinals) it seems highly implausible that these kinds of enquires have significantly raised peoples confidence. Similarly inaccessibles.
+One natural idea suggested briefly by Hellman is that evidence comes from 
+familiarity with the systems; ones confidence in the consistency of a system 
+is gradually increased as one uses it, becomes familiar with it, all the while 
+not finding any contradictions. Perhaps this is so, but in the case he discusses 
+(Mahlo cardinals) it seems highly implausible that these kinds of enquires have 
+significantly raised peoples confidence. Similarly inaccessibles.
 
-Perhaps, however, there are some such cases. Measurables were widely held to be inconsistent but gradual familiarity seems to have persuaded people otherwise. Similarly with the hierarchy of choiceless cardinals. Initially suspected to be consistent, but pursuit revealed rich structure theory. Increasingly people think they are consistent. But this consistency \emph{is} surprising. So perhaps people are more willing to take the case for these cardinals -- and hence the case for the ultimate falsity of AC -- more seriously. In this case, Hellman's Bayseian model does seem to apply in a potentially interesting way.
+Perhaps, however, there are some such cases. 
+Measurables were fairly widely held to be inconsistent but gradual 
+familiarity seems to have persuaded people otherwise. Similarly with the 
+hierarchy of choiceless cardinals. Initially suspected to be consistent, 
+but pursuit revealed rich structure theory. Increasingly people think they 
+are consistent. But this consistency \emph{is} surprising. So perhaps people 
+are more willing to take the case for these cardinals -- and hence the case 
+for the ultimate falsity of AC -- more seriously. In this case, Hellman's 
+Bayseian model does seem to apply in a potentially interesting way.
 
 
 
