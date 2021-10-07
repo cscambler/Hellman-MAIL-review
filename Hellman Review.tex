@@ -13,7 +13,7 @@ University of Oxford}
 \newtheorem{Proposition}[Theorem]{Proposition}
 \newtheorem{Lemma}[Theorem]{Lemma}
 \newtheorem{Corollary}[Theorem]{Corollary}
-\usepackage{times}
+
 % These will be typeset in Roman
 \theoremstyle{definition}
 \newtheorem{Definition}[Theorem]{Definition}
@@ -367,14 +367,16 @@ the stages that witness formation of natural numbers \emph{stop coming},
 even though (as the stage theory requires) the stages continue. 
 But (given {\bf E}) this really seems a trivial restatement of the 
 claim that eventually you get all of them.  One can say eventually you get 
-all of the stages at which natural numbers 
-are formed; or, that eventually you won't get any more stages at which natural 
+all possible stages at which natural numbers 
+are formed; or, that eventually you necessarily won't get any more stages at which natural 
 numbers are formed. But in either case,
 so long as you also have that every natural 
 number is formed at some possible stage,
-you are saying essentially the same thing.
+you are saying essentially the same thing, and it is therefore rather 
+hard to imagine anyone uncertain of the one statement being 
+reassured by appeal to the other.
 
-So in my view axiom {\bf A} and axiom {\bf HA} come to more or less the 
+In my view then axioms {\bf A} and {\bf HA} come to more or less the 
 same thing, so if one is `too close' to the sought conclusion to really advance 
 the debate then so is the other. In fact I think it highly unlikely that an axiom 
 of more intrinsic plausibility than the simple assertion that an infinite set is possible 
@@ -424,84 +426,88 @@ of the corresponding large cardinals.
 
 Now I parenthetically remarked `in a sense' above, for the reason that
 it is only in terms of \emph{consistency strength} that large cardinals are needed. 
-In a case the receives extensive discussion in CITE, for example, it is shown 
-that a certain proposition in Boolean relation theory can be proven assuming 
-the existence of an $n$-Mahlo cardinal for each $n$, and that this hypothesis 
-is necessary in the sense that the natural large cardinal hypotheses of 
-weaker strength-- saliently, for example, the scheme in $n$ to the effect 
-that there exists an $n$ Mahlo cardinal for each $n$ -- cannot prove the theorem, 
-on grounds that the theorem implies the $1$-consistency of such hypotheses. But 
-of course this \emph{does not} mean the large cardinal hypothesis really is necessary.
-In fact it is sufficient to assume that the large cardinal hypothesis in question 
-only has true arithmetic consequences (essentially, that it is $1$-consistent). 
+In the case I just mentioned, for example, 
+it is true that the proposition in Boolean Relation theory 
+follows from the assumption of the existence of an $n$-Mahlo cardinal for each $n$, 
+and that it will not follow from a weaker large cardinal axiom because the proposition 
+itself implies the consistency of the claim, of each particular $n$, that an $n$-Mahlo 
+exists (in fact it even implies the consistency of the \emph{schema} in $n$ asserting this).
+Now this gives a \emph{sense} in which the relevant large cardinal hypothesis is necessary
+in proving the proposition.  But 
+of course this \emph{does not} mean the large cardinal hypothesis really is
+a necessary condition for the proposition, since in fact it is 
+enough simply to assume that the relevant hypothesis
+\emph{does not have any false arithmetic consequences}, which is a much weaker 
+assumption and itself a statement at the level of the integers. 
+And it is completely obvious that this situation is general: whenever you have 
+some statement at the level of the integers that seems to need a large cardinal 
+axiom to prove, one will be able to get by with the much weaker assumption of 
+conservativeness over the arithmetic fragment. Large cardinal hypotheses don't need
+to be true to be useful, they just need to not mislead.
 In his work, Solomon Feferman repeatedly appealed to such observations 
-as a way of defusing attempts at justifying belief in uncountable infinities;
-in the present context, one might see them as a way of defusing the kind of 
-intra-mathematical indispensability argument under consideration.
+as a way of `defanging' the G\"odel-Friedman program.
 
 The last two papers of part II, and especially the last one, contains the germ
 of an idea for how to overcome this kind of problem by appeal to Bayesian 
-confirmation theory.
-
-The central suggestion is that the famous `Bayes rule'
+confirmation theory. The central suggestion is that the famous `Bayes rule'
 
 \begin{equation}
 P(H|E) = \frac{P(E|H)\cdot P(H)}{P(E)}
 \end{equation}
 
 may somehow be invoked to give a `boost' to the subjective probability 
-of large cardinal hypotheses, even if of course that boost will fall 
-short of the security provided by a deductive proof. 
-This idea has roots, according to Hellman, in a famous remark of G\"odel's, 
-in which G\"odel proposes that large cardinal axioms and other axioms 
-extending ZFC may be justified in terms of their `success' and 
-`verifiable consequences'.
+of large cardinal hypotheses, even given the foregoing observations.
 
 Hellman's idea is to appeal to results like those of Friedman 
 to `increase the posterior rational credence' of the hypothesis that large 
 cardinals exist, \emph{via}  Bayes rule. According to Hellman, 
 in the role of evidence (the $E$ in Bayes' rule) we may take syntactic 
-claims like (say) the schema asserting the existence of an $n$ Mahlo cardinal 
-for each $n$ is 1-consistent; this, says Hellman, is a proposition to which 
+claims like (say) the schema (in $n$) asserting the existence of an $n$ Mahlo cardinal
+only has true arithmetic consequences; this, says Hellman, is a proposition to which 
 we have `epistemic access', `arising in a variety of contexts' in such a way that
-plausibly we can hope to `conrim... it through its own fruitfulness in other applications'.
+plausibly we can hope to `confirm... it through its own fruitfulness in other applications'.
 (This is in contrast e.g. to Friedman's proposition from Boolean relation theory,
 which Hellman does not think has these properties.) Hellman adds that besides this
 consistency claim, in the case at hand, we may throw in additionally `consistency 
 properties of other cardinals whose existence is derivable from the Mahlos', 
 including inaccessibles, hyper-inaccessibles and so on -- 
 to further enrich the evidence. In the role of the hypothesis $(H)$ of course
-we will just have the existence of an $n$-Mahlo cardinals for each $n$. 
+we will just have the large cardinal hypothesis in question, namely 
+the existence of an $n$-Mahlo cardinal for each $n$. 
 
-Hellman never actually runs through how the application of Bayes rule in 
-such cases is supposed to go, but I think it is illuminating to do so 
+Hellman doesn't run through how the application of Bayes rule in 
+such cases is supposed to go in detail, but I think it is illuminating to do so 
 -- and reveals why application of the rule in mathematical cases in particular 
 is perhaps more problematic than traditional empirical applications. 
 In this case, it is clear that $P(E|H)$ is 1, so this drops out. 
 We are left with the claim that one's degree of belief in the claim that 
-the $n$-Mahlo cardinals exist, given they are 1-consistent, should be at least 
+the $n$-Mahlo cardinals exist, given they are arithmetically conservative, should be at least 
 the result of dividing one's degree of belief that they exist by 
-one's degree of belief that the corrsponding scheme is 1-consistent. (Technically
+one's degree of belief that the corrsponding scheme is arithmetically conservative. (Technically
 one could add to the $E$ side the other consistency properties mentioned by Hellman,
 but these would be redundant for the obvious reason that they are all implied by 
 the consistency property already mentioned, and so conjoining them
 will not alter the probability of $E$.)
 
 At this point we run into a bit of a problem. If one's degree of belief 
-in the 1-consistency of the relevant scheme is high -- which for most people 
+in the arithmetical conservativeness of the relevant scheme is high -- which for most people 
 of course, it is -- then updating on this will make little difference to the 
 posterior on their existence. Few people then will have their credences in 
 Mahlos altered by this line of reasoning. Certainly, a skeptic like Feferman already
 willing to concede consistency, but doubtful only of existence, will be little moved.
 
 Now to \emph{some} extent this might be chalked up simply to the problem of 
-`old evidence', familiar from discussions of Bayseianism. This is the 
+`old evidence', familiar from more general discussions of Bayseianism. This is the 
 problem that for Bayesian update to have \emph{any} effect, there must be a 
-change in view on the $E$. Consider for example $E =$ `the die comes up 6 6 times', 
+change in view on the $E$; after you have attained your evidence,
+the formula will no longer work to tell you how to update.
+Consider for example $E =$ `the die comes up 6 6 times', 
 $H =$ `the die is loaded', against some background information $B$. Suppose 
-the die has been rolled; you are basically certain its a six. Then applying 
+the die has been rolled six times, and came up each time 6; and you are basically 
+certain of this. Then applying 
 Bayes rule will yield the wrong results; really you want $P(E) = 1/6^6$, 
-not close to $1$. In this case, as with such mundane cases, 
+not close to $1$, to get an appropriate update. 
+In this case, as with such mundane cases more generally, 
 it is obvious what to do: just imagine yourself in a situation before you were 
 certain in $E$, before you got the relevant evidence, and reason from there to work
 out how you should update now. Perhaps then we ought to do the same in the case 
@@ -509,32 +515,37 @@ of these consistency statments?
 
 It is a little unclear how this would go: after all, it 
 is not as though we can all remember a time before we thought Mahlo cardinals 
-were consistent, along with an `ah ha!' moment where the evidence was revealed. 
+were arithmetically conservative, along with an `ah ha!' moment where the evidence was revealed. 
+This points to a general issue in using 
+Bayesian techniques for \emph{a priori} questions; it is not clear in 
+these circumstances that we have a relevant notion of `evidence'.
 If Hellman's proposal is to work, something more subtle will have to be invoked.
 
 One natural and interesting idea here, suggested (in my opinion all too) 
-briefly by Hellman, is instead of thinking in terms of an indvidual's priors 
-and posteriors in the course of their life we think in more general terms about
+briefly by Hellman, is instead of thinking in terms of \emph{an indvidual's} priors 
+and posteriors we think in more general terms about
 something more nebulous, like `the community of mathematicians', considered as a 
 group over time. Here we can think of this group as accruing evidence for the 
-consistency of large cardinals gradually and over time by inductive experience
-proving things in such systems. (Or perhaps an expert doing so on their own by 
-detailed and copious investigations.) On this way of thinking of things, if there 
+consistency \& conservativeness of large cardinals gradually and over time through experience
+of giving proofs in the relevant systems. On this way of thinking of things, if there 
 were a case where the community as a whole were first rather skeptical of the 
-consistency of some large cardinal statement, and then over time gradully came to 
+consistency/conservativeness of some large cardinal statement, and then over time gradully came to 
 be confident in the consistency, this could be taken to warrant Bayesian update 
 among members of the community giving a boost in favor of the \emph{existence} of 
-large cardinals. 
+large cardinals, by a pattern of reasoning not dissimilar to that sketched in the case of the 
+die.
 
 The extent to which this sort of thinking \emph{should in fact} lead to a boost 
 in confidence in large cardinals -- even if only under rational reconstruction --
 is an interesting question. By dint of the way it is set up, it will be sensitive to 
 the question of who gets to count as part of the `community'. (If we start with 
 Aristotle, we may get one set of results; 
-if we start with Cantor, things will look quite different.) But there are certainly 
+if we start with Cantor, things will look quite different.) It will also 
+be sensitive to the large cardinal axiom. Plausibly, the arithmetical conservativeness of 
+Mahlos has been a shock to few. But there are certainly 
 interesting cases here: for example, it is currently considered (so far as I 
-know) a \emph{very} open question whether the choiceless cardinals are consistent; 
-if over time, inductive familiarity led to a belief in consistency, this Bayesian 
+know) a \emph{very} open question whether the choiceless cardinals are consistent/conservative; 
+so if over time, inductive familiarity led to a belief in consistency, this Bayesian 
 machinery would predict we should be more confident in the \emph{truth} of the 
 choicless cardinal axioms as well. 
 
