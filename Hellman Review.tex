@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{amsart}
 \usepackage{amsmath, amsthm, amssymb}
 %
 \title{Review: Geoffrey Hellman, \emph{Mathematics and its Logics}}
@@ -208,7 +208,7 @@ How might height potentialism help with deriving the axiom of infinity?
 First, it is important to note that in one very mundane (but important) sense,
 it necessarily cannot help. For the standard axiom of infinity says, 
 simply and unapologetically, 
-that there \emph{exists} and infinite set. And many height potentialist theories, 
+that there \emph{exists} an infinite set. And many height potentialist theories, 
 Hellman's own brands included, 
 tend not to have this as a consequence, and inded they tend not 
 to even imply there exist \emph{any sets at all}. 
@@ -290,15 +290,18 @@ find new series of stages that satisfy $P$.
 Now, let $N$ be the predicate
 \begin{quote} Every stage in the $ss$ is one at which a natural number is formed
 \end{quote} 
-Then the axiom Hellman proposes is simply that `$N$ is not IE'. 
-Let us see what this amounts to. Substituting $N$ for $P$ in $IE$ 
-and negating we get the negation of one of {\bf B} or {\bf C} with $N = P$. 
-The resulting negation of {\bf B} is demonstrably false 
+Then the axiom Hellman proposes is  
+\begin{description}
+    \item[HA] $N$ is not IE
+\end{description}  
+Let us see what {\bf HA} amounts to. Substituting $N$ for $P$ in $IE$ 
+and negating we get the negation of one of \emph{B} or \emph{C} with $N = P$. 
+The resulting negation of \emph{B} is demonstrably false 
 given the rest of Hellman's stage theory, 
 so we are left with (up to trivial grammatical reshuffling)
 
 \begin{description}
-    \item[D] possibly, there are stages $ss$ 
+    \item[HA$^+$] Possibly, there are stages $ss$ 
     where every one of $ss$ witnesses the formation of a new natural number, 
     and such that no later stage witnesses the formation of a natural number.
 \end{description}
@@ -311,15 +314,38 @@ at which the set of all natural numbers is formed (and much more besides).
 But this is the potentialist version of the axiom of infinity we set out to secure.
 
 I have two issues with this argument. 
-The first is that it is not obvious to me 
-that there is much daylight between Hellman's proposed axiom 
-and axiom {\bf A}. The second is that the machinery of stage theory 
-and the Boolosian iterative conception seems superfluous, 
-and indeed unnecessarily complicating. The indefinite extensibility property,
-and formulation of axioms in terms of it, is well known in the literature 
-and provides a much cleaner formulation of the same ideas, in my opinion at least.
+The first (and less significant) issue is that the machinery of stage theory 
+and the Boolosian iterative conception seems superfluous, so that it is 
+rather unobvious why talk of stages and the extra vocabulary this requires should 
+be relevant to the argument. (In fact, shorn of commitment to stages, Hellman's 
+axioms closely resemble the axioms of infinity and replacement as they are 
+presented in Linnebo's potentialist set theory.) 
+The second and more significant point is that it is seems there is in fact 
+little daylight between {\bf HA} (or {\bf HA$^+$})
+and axiom {\bf A}, so that if the one is  `too close for comfort' to the 
+sought conclusion then so is the other.
 
-On the issue of daylight between {\bf A} and Hellman's proposal: 
+As to the first point, it is a little unclear why talk of stages 
+should be relevant to such arguments for the justification of infinity, 
+and in fact there are simpler though intimately related proposals known 
+in the literature. For example, a simpler definition of an IE predicate says 
+that the predicate $P$ is IE if necessarily, given any plurality $pp$ of $P$-ers, 
+it is possible to find a $p$ not among the $pp$ with $P(p)$. 
+Then the axiom that says the predicate `is a natural number' or 
+`is a hereditarily finite set' is not IE in this sense seems to have 
+all the plausibility of Hellman's proposal but without need to refer to stages. 
+Indeed, as I just mentioned, this is essentially the statement of the axiom
+of infinity given in Linnebo (cite). But now why should it be thought that the postulation
+that the stages of natural number formation are not indefinitely extendible is any 
+more plausible than the simpler claim that that the natural numbers or the hereditarily 
+finite sets are not indefinitely extendible in this sense?
+
+This first issue is really not a big deal; either way of putting the argument
+is fine, it just seems a little strange to use the more complicated 
+vocabulary when not strictly necessary. But the more pressing issues
+regards the extent to which {\bf A} and {\bf HA} differ significantly 
+enough for cognitive ground to be gained. And here I am somewhat skeptical.
+
 Let's review the dialectic. Hellman's stage theory is committed to 
 
 \begin{description} 
@@ -338,29 +364,26 @@ it asserts that it is possible to run through all the finite stages
 of the set construction process. In the context of {\bf E} on the other hand, 
 {\bf D} is a way of saying `yes' bentbackwardly, by saying that eventually 
 the stages that witness formation of natural numbers \emph{stop coming}, 
-even though the stages continue. But (given that by {\bf E} such stages 
-do come for each $n$) this really seems a trivial restatement of the 
-claim that eventually you get all of them.  In fact they seem roughly akin 
-to the pair `someone is wearing a hat' and `not everyone is not wearing a hat': 
-you can either say eventually you get all of the stages at which natural numbers 
-are formed, or that eventually you won't get any more stages at which natural 
-numbers are formed, but in either case you are saying essentially the same thing.
+even though (as the stage theory requires) the stages continue. 
+But (given {\bf E}) this really seems a trivial restatement of the 
+claim that eventually you get all of them.  One can say eventually you get 
+all of the stages at which natural numbers 
+are formed; or, that eventually you won't get any more stages at which natural 
+numbers are formed. But in either case,
+so long as you also have that every natural 
+number is formed at some possible stage,
+you are saying essentially the same thing.
 
-As to the second point, it is a little unclear why talk of stages 
-should be relevant to such arguments for the justification of infinity, 
-and in fact there are simpler though intimately related proposals known 
-in the literature. For example, a simpler definition of an IE predicate says 
-that the predicate $P$ is IE if necessarily, given any plurality $pp$ of $P$-ers, 
-it is possible to find a $p$ not among the $pp$ with $P(p)$. 
-Then the axiom that says the predicate `is a natural number' or 
-`is a hereditarily finite set' is not IE in this sense seems to have 
-all the plausibility of Hellman's proposal but without need to refer to stages. 
-In fact, this (more or less) is the statement of the axiom of infinity in 
-Linnebo's potentialist system.
-
-Remember: note the potential that the argument for replacement does more,
-because it simplifies Linnebo's axiom. This is not evident, 
-cos of weirdness in defining `function'.
+So in my view axiom {\bf A} and axiom {\bf HA} come to more or less the 
+same thing, so if one is `too close' to the sought conclusion to really advance 
+the debate then so is the other. In fact I think it highly unlikely that an axiom 
+of more intrinsic plausibility than the simple assertion that an infinite set is possible 
+will be found that nevertheless implies it in the potentialist's logical framework.  
+This is not to say, though, that the potentialist is no better off than the actualist, 
+since as I have already stressed they will in general have a simpler task in justifying 
+their weaker form of the axiom of infinity. If all you need is the \emph{logical possibility}
+(say) of an infinity of sets existing together, you'll be better off than if you 
+need to argue for the \emph{actual existence} of an infinity of sets.
 
 \section{On Bayesianism and Large Cardinals}
 
@@ -370,13 +393,12 @@ of belief in the existence of large cardinals.
 
 One possible path to justification here, that has its roots in ideas of G\"odel, 
 is that one may be able to justify belief in large cardinals by 
-a kind of intra-matheamtical indispensability argument. If one can show that there
+a kind of intra-matheamtical indispensability argument. The idea is to show that there
 is a significant class of important `low level' mathematical problems 
 (say at the level of the integers) that are unsolvable except
-by appeal to large cardinals, then, the thought goes, one might have a sort of 
-case to make that we should accept the existence of large cardinals
-analogous to the Quine-Putnam indispensability arguments for the existence 
-of mathematical objects \emph{simpliciter}.\footnote{
+by appeal to large cardinals, and then to defend belief in large cardinals 
+on grounds they are needed to solve the relevant problems (or even just 
+allow for simpler arguments than are otherwise available).\footnote{
     Of course Hellman himself, like Putnam in fact, 
     ultimately finds such arguments dubious on grounds 
     that abstract mathematical objects are not needed anywhere
@@ -387,15 +409,21 @@ In its initial G\"odelian form, this idea was developed using consistency statem
 for theories of interest as the `important mathematical problems' left open by set theory
 without large cardinals but solvable in set theory with them. This initial form is 
 open to natural concerns about whether or not consistency statements are `mathematical'
-enough to constitute `important mathematical problems'; but since G\"odel's time,
-many further results have been found, including the Paris Harrington theorem 
-along with a whole litany of results of Harvey Friedman, that seem more 
-legitimately mathematical statements at the level of the integers, and yet
-that can (in a sense!) \emph{only} be resolved by appeal to fairly strong assumptions, 
-e.g. the existence of $n$-Mahlo cardinals for each natural $n$.
+enough to constitute `important mathematical problems'; but, since G\"odel,
+many further results have been found that do better on this score, including e.g. the 
+Paris-Harrington theorem, various finite forms of Ramsey's theorem, and so on. At the 
+cutting edge of these we have various combinatorial results about the integers and rationals
+which Harvey Friedman has shown to be equivalent to farily strong large cardinal 
+axioms, including the case highlighted by Hellman in which a statement about the integers 
+in the field of Boolean relation theory is shown to (in a sense!) require the existence 
+of an $n$-Mahlo cardinal for each $n$ to be proven.
+The `G\"odel-Friedman', as Hellman 
+calls it, aims to marshal such results as evidence in favor of the existence 
+of the corresponding large cardinals.
+
 
 Now I parenthetically remarked `in a sense' above, for the reason that
-this is typically only so when it comes to consistency strength. 
+it is only in terms of \emph{consistency strength} that large cardinals are needed. 
 In a case the receives extensive discussion in CITE, for example, it is shown 
 that a certain proposition in Boolean relation theory can be proven assuming 
 the existence of an $n$-Mahlo cardinal for each $n$, and that this hypothesis 
